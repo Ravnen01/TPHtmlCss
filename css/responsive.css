@@ -1,13 +1,23 @@
-#infos , #sous_titre , #offres , #bloc_right , #offre_du_moment, #who, #nos_shop, #acces_rapide, #siege{
+#infos , #sous_titre , #offres , #bloc_right , #offre_du_moment, #who, #nos_shop, #acces_rapide, #siege {
     display: none;
 }
 
-#nouveaux_produits p , aside{
+#nouveaux_produits p, aside{
     display: none;
 }
 
+#nouveaux_produits #second_part {
+    display: none;
+}
 #enseigne h1{
     display: none;
 }
 
+#nouveaux_produits {
+    width: 100%;
+}
 
+#nouveaux_produits article {
+    display: block;
+    margin: auto;
+}
