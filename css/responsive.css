@@ -29,6 +29,7 @@
 {
 
     background-color:#82a125;
+    margin-top: 0;
 
 }
 #search_button{
@@ -39,7 +40,7 @@
 
 
 #ic_menu_mobile{
-    background: rgb(130, 161, 37);
+
     height:51px;
     overflow: visible;
     display: block;
@@ -57,20 +58,21 @@
 
 .menuDeroulant li
 {
+    margin-top: -10px;
     float: none;
      /* Crée un contexte de positionnement pour les sous-listes */
     list-style: none;
     position: relative;
     z-index: 1;
-
+    height: 40px;
     display: none;
 
 
 }
-#ic_menu_mobile:hover>.menuDeroulant li{
-        display:block;
-}
 
+nav:hover >.menuDeroulant li{
+    display:inline;
+}
 
 .menuDeroulant li a
 {
@@ -89,9 +91,9 @@
 
 .menuDeroulant ul
 {
-    position: absolute;
+
     top: 0px;
-    left: 10%;
+    left: 125px;
     opacity: 0;
     background: rgb(150, 184, 47);
     z-index: 2;
