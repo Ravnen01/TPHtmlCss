@@ -1,0 +1,13 @@
+#infos , #sous_titre , #offres , #bloc_right , #offre_du_moment, #who, #nos_shop, #acces_rapide, #siege{
+    display: none;
+}
+
+#nouveaux_produits p , aside{
+    display: none;
+}
+
+#enseigne h1{
+    display: none;
+}
+
+
