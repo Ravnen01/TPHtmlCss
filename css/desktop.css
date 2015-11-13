@@ -174,8 +174,8 @@ header
 
 .menuDeroulant li
   {
-	float: left; /* Pour que les liens s’affichent horizontalement */
-	position: relative; /* Crée un contexte de positionnement pour les sous-listes */
+	float: left; /* Pour que les liens sï¿½affichent horizontalement */
+	position: relative; /* Crï¿½e un contexte de positionnement pour les sous-listes */
 	list-style: none;
 	display: block;
 	height: 40px;
@@ -683,3 +683,7 @@ footer section:last-child input:last-child {
 	border: 2px solid #d9dbd5;
 	color: #939292;
 	}
+#ic_menu_mobile{
+	display:none;
+
+}
