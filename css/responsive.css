@@ -1,14 +1,18 @@
-#infos , #sous_titre , #offres , #bloc_right , #offre_du_moment, #who, #nos_shop, #acces_rapide, #siege{
+#infos , #sous_titre , #offres , #bloc_right , #offre_du_moment, #who, #nos_shop, #acces_rapide, #siege {
     display: none;
 }
 
-#nouveaux_produits p , aside{
+#nouveaux_produits aside{
     display: none;
 }
 
+#nouveaux_produits #second_part {
+    display: none;
+}
 #enseigne h1{
     display: none;
 }
+
 
 /* MENUBAR */
 .menuDeroulant,
@@ -144,3 +148,14 @@ nav:hover >.menuDeroulant li{
     margin: 0px;
     padding: 12px 14px 11px 14px;
 }
+
+#nouveaux_produits {
+    width: 100%;
+}
+
+#nouveaux_produits article {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
